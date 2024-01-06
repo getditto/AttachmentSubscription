@@ -11,7 +11,7 @@ collection. Its `AttachmentAutoFetcher` property instance takes an array of `Dit
 fetches attachments where the value for the token key is non-nil, using a concurrent threading queue. 
 
 An example of fetching attachment data on user demand can be found in the 
-iOS Chat app [demo project](https://github.com/getditto/demoapp-chat/tree/main/iOS).  
+[iOS Chat app demo project](https://github.com/getditto/demoapp-chat/tree/main/iOS).  
 
 ## Setup and Run    
 1. Clone this repo to a location on your machine, and open in Xcode.    
@@ -29,5 +29,6 @@ DITTO_PLAYGROUND_TOKEN=XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXX
 DITTO_COLLECTION_NAME=my_attachments_collection_name
 DITTO_ATTACHMENT_TOKEN_KEY=my_attachment_property_name
 ```  
+
 6. Clean (**Command + Shift + K**), then build (**Command + B**). This will generate `Env.swift`.  
 (repeat if necessary)  
