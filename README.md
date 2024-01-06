@@ -22,13 +22,15 @@ playground token.
 4. In Terminal, run `cp .env.template .env` at the Xcode project root directory.     
 5. Edit `.env` to add appID and playground token values from the portal as environment variables. 
 Also add the collection name and the attachment token property name/key - used when adding an 
-attachment to a DittoDocument. Example:         
-````
-DITTO_APP_ID=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
-DITTO_PLAYGROUND_TOKEN=XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXX
-DITTO_COLLECTION_NAME=my_attachments_collection_name
-DITTO_ATTACHMENT_TOKEN_KEY=my_attachment_property_name
+attachment to a DittoDocument.  
+  
+Example: 
 ```  
+DITTO_APP_ID=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX 
+DITTO_PLAYGROUND_TOKEN=XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXX 
+DITTO_COLLECTION_NAME=my_attachments_collection_name 
+DITTO_ATTACHMENT_TOKEN_KEY=my_attachment_property_name
+```
 
 6. Clean (**Command + Shift + K**), then build (**Command + B**). This will generate `Env.swift`.  
 (repeat if necessary)  
