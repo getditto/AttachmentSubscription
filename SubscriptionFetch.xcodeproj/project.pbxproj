@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1401E6072A6209A1008804B2 /* DittoToolsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1401E5FC2A6209A1008804B2 /* DittoToolsListView.swift */; };
+		1401E6082A6209A1008804B2 /* SubscriptionFetchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1401E5FD2A6209A1008804B2 /* SubscriptionFetchApp.swift */; };
+		1401E6092A6209A1008804B2 /* DittoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1401E5FE2A6209A1008804B2 /* DittoService.swift */; };
+		1401E60A2A6209A1008804B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1401E5FF2A6209A1008804B2 /* Assets.xcassets */; };
+		1401E60C2A6209A1008804B2 /* AttachmentAutoFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1401E6012A6209A1008804B2 /* AttachmentAutoFetcher.swift */; };
+		1401E60D2A6209A1008804B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1401E6032A6209A1008804B2 /* Preview Assets.xcassets */; };
+		140936252B48D24D0069ED1C /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140936242B48D24D0069ED1C /* Env.swift */; };
+		141A2F5B2B479F030029B6A4 /* DittoObjC in Frameworks */ = {isa = PBXBuildFile; productRef = 141A2F5A2B479F030029B6A4 /* DittoObjC */; };
+		141A2F5D2B479F030029B6A4 /* DittoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 141A2F5C2B479F030029B6A4 /* DittoSwift */; };
+		1445F5B82B47A7AF0039E285 /* DittoDataBrowser in Frameworks */ = {isa = PBXBuildFile; productRef = 1445F5B72B47A7AF0039E285 /* DittoDataBrowser */; };
+		1445F5BA2B47A7AF0039E285 /* DittoDiskUsage in Frameworks */ = {isa = PBXBuildFile; productRef = 1445F5B92B47A7AF0039E285 /* DittoDiskUsage */; };
+		1445F5BC2B47A7AF0039E285 /* DittoExportData in Frameworks */ = {isa = PBXBuildFile; productRef = 1445F5BB2B47A7AF0039E285 /* DittoExportData */; };
+		1445F5BE2B47A7AF0039E285 /* DittoExportLogs in Frameworks */ = {isa = PBXBuildFile; productRef = 1445F5BD2B47A7AF0039E285 /* DittoExportLogs */; };
+		1445F5C02B47A7AF0039E285 /* DittoPeersList in Frameworks */ = {isa = PBXBuildFile; productRef = 1445F5BF2B47A7AF0039E285 /* DittoPeersList */; };
+		1445F5C22B47A7AF0039E285 /* DittoPresenceViewer in Frameworks */ = {isa = PBXBuildFile; productRef = 1445F5C12B47A7AF0039E285 /* DittoPresenceViewer */; };
+		1445F5C62B47B1EB0039E285 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1445F5C52B47B1EB0039E285 /* ContentView.swift */; };
+		1446901B2B45D37800E67868 /* DittoAttachmentSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446901A2B45D37800E67868 /* DittoAttachmentSubscription.swift */; };
+		144C2CFA2A5F8DAC004E92D2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 144C2CF82A5F8DAC004E92D2 /* README.md */; };
+		148071122A8A99870091EC03 /* DittoToolsListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148071112A8A99870091EC03 /* DittoToolsListItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1401E5FC2A6209A1008804B2 /* DittoToolsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DittoToolsListView.swift; sourceTree = "<group>"; };
+		1401E5FD2A6209A1008804B2 /* SubscriptionFetchApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionFetchApp.swift; sourceTree = "<group>"; };
+		1401E5FE2A6209A1008804B2 /* DittoService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DittoService.swift; sourceTree = "<group>"; };
+		1401E5FF2A6209A1008804B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1401E6012A6209A1008804B2 /* AttachmentAutoFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentAutoFetcher.swift; sourceTree = "<group>"; };
+		1401E6032A6209A1008804B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1401E6052A6209A1008804B2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140936242B48D24D0069ED1C /* Env.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		1445F5C52B47B1EB0039E285 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1446901A2B45D37800E67868 /* DittoAttachmentSubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DittoAttachmentSubscription.swift; sourceTree = "<group>"; };
+		144C2CF82A5F8DAC004E92D2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		148071112A8A99870091EC03 /* DittoToolsListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DittoToolsListItem.swift; sourceTree = "<group>"; };
+		14CD51AD2A2FE2D50018DE87 /* SubscriptionFetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubscriptionFetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14CD51AA2A2FE2D50018DE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1445F5C02B47A7AF0039E285 /* DittoPeersList in Frameworks */,
+				1445F5B82B47A7AF0039E285 /* DittoDataBrowser in Frameworks */,
+				141A2F5B2B479F030029B6A4 /* DittoObjC in Frameworks */,
+				1445F5BA2B47A7AF0039E285 /* DittoDiskUsage in Frameworks */,
+				1445F5BC2B47A7AF0039E285 /* DittoExportData in Frameworks */,
+				1445F5BE2B47A7AF0039E285 /* DittoExportLogs in Frameworks */,
+				1445F5C22B47A7AF0039E285 /* DittoPresenceViewer in Frameworks */,
+				141A2F5D2B479F030029B6A4 /* DittoSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1401E5FA2A6209A1008804B2 /* SubscriptionFetch */ = {
+			isa = PBXGroup;
+			children = (
+				1401E6012A6209A1008804B2 /* AttachmentAutoFetcher.swift */,
+				1445F5C52B47B1EB0039E285 /* ContentView.swift */,
+				1446901A2B45D37800E67868 /* DittoAttachmentSubscription.swift */,
+				1401E5FE2A6209A1008804B2 /* DittoService.swift */,
+				1401E5FD2A6209A1008804B2 /* SubscriptionFetchApp.swift */,
+				148071102A8A98F90091EC03 /* DittoToolsScreen */,
+				140936242B48D24D0069ED1C /* Env.swift */,
+				1401E5FF2A6209A1008804B2 /* Assets.xcassets */,
+				1401E6022A6209A1008804B2 /* Preview Content */,
+				1401E6052A6209A1008804B2 /* Info.plist */,
+			);
+			path = SubscriptionFetch;
+			sourceTree = "<group>";
+		};
+		1401E6022A6209A1008804B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1401E6032A6209A1008804B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		148071102A8A98F90091EC03 /* DittoToolsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				148071112A8A99870091EC03 /* DittoToolsListItem.swift */,
+				1401E5FC2A6209A1008804B2 /* DittoToolsListView.swift */,
+			);
+			path = DittoToolsScreen;
+			sourceTree = "<group>";
+		};
+		148E2F862A5CC6A200718D20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14CD51A42A2FE2D50018DE87 = {
+			isa = PBXGroup;
+			children = (
+				144C2CF82A5F8DAC004E92D2 /* README.md */,
+				1401E5FA2A6209A1008804B2 /* SubscriptionFetch */,
+				14CD51AE2A2FE2D50018DE87 /* Products */,
+				148E2F862A5CC6A200718D20 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14CD51AE2A2FE2D50018DE87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14CD51AD2A2FE2D50018DE87 /* SubscriptionFetch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14CD51AC2A2FE2D50018DE87 /* SubscriptionFetch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CD51BB2A2FE2D60018DE87 /* Build configuration list for PBXNativeTarget "SubscriptionFetch" */;
+			buildPhases = (
+				146F92502B48C446004967F9 /* Generate Env.swift */,
+				14CD51A92A2FE2D50018DE87 /* Sources */,
+				14CD51AA2A2FE2D50018DE87 /* Frameworks */,
+				14CD51AB2A2FE2D50018DE87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SubscriptionFetch;
+			packageProductDependencies = (
+				141A2F5A2B479F030029B6A4 /* DittoObjC */,
+				141A2F5C2B479F030029B6A4 /* DittoSwift */,
+				1445F5B72B47A7AF0039E285 /* DittoDataBrowser */,
+				1445F5B92B47A7AF0039E285 /* DittoDiskUsage */,
+				1445F5BB2B47A7AF0039E285 /* DittoExportData */,
+				1445F5BD2B47A7AF0039E285 /* DittoExportLogs */,
+				1445F5BF2B47A7AF0039E285 /* DittoPeersList */,
+				1445F5C12B47A7AF0039E285 /* DittoPresenceViewer */,
+			);
+			productName = DittoBase;
+			productReference = 14CD51AD2A2FE2D50018DE87 /* SubscriptionFetch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14CD51A52A2FE2D50018DE87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1510;
+				ORGANIZATIONNAME = "DittoLive Incorporated";
+				TargetAttributes = {
+					14CD51AC2A2FE2D50018DE87 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 14CD51A82A2FE2D50018DE87 /* Build configuration list for PBXProject "SubscriptionFetch" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14CD51A42A2FE2D50018DE87;
+			packageReferences = (
+				141A2F592B479F030029B6A4 /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */,
+				1445F5B62B47A7AF0039E285 /* XCRemoteSwiftPackageReference "DittoSwiftTools" */,
+			);
+			productRefGroup = 14CD51AE2A2FE2D50018DE87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14CD51AC2A2FE2D50018DE87 /* SubscriptionFetch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14CD51AB2A2FE2D50018DE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1401E60A2A6209A1008804B2 /* Assets.xcassets in Resources */,
+				1401E60D2A6209A1008804B2 /* Preview Assets.xcassets in Resources */,
+				144C2CFA2A5F8DAC004E92D2 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		146F92502B48C446004967F9 /* Generate Env.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/buildEnv.sh",
+			);
+			name = "Generate Env.swift";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Env.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/buildEnv.sh\" \"${SRCROOT}/.env\" \"${SRCROOT}/${PROJECT}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14CD51A92A2FE2D50018DE87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1401E6072A6209A1008804B2 /* DittoToolsListView.swift in Sources */,
+				1446901B2B45D37800E67868 /* DittoAttachmentSubscription.swift in Sources */,
+				1401E6092A6209A1008804B2 /* DittoService.swift in Sources */,
+				1445F5C62B47B1EB0039E285 /* ContentView.swift in Sources */,
+				1401E60C2A6209A1008804B2 /* AttachmentAutoFetcher.swift in Sources */,
+				140936252B48D24D0069ED1C /* Env.swift in Sources */,
+				148071122A8A99870091EC03 /* DittoToolsListItem.swift in Sources */,
+				1401E6082A6209A1008804B2 /* SubscriptionFetchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		14CD51B92A2FE2D60018DE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14CD51BA2A2FE2D60018DE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14CD51BC2A2FE2D60018DE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SubscriptionFetch/Preview Content\"";
+				DEVELOPMENT_TEAM = 3T2VMFZPPQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SubscriptionFetch/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Uses Bluetooth to connect and sync with nearby devices";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Uses Bluetooth to connect and sync with nearby devices";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = live.ditto.SubscriptionFetch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14CD51BD2A2FE2D60018DE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SubscriptionFetch/Preview Content\"";
+				DEVELOPMENT_TEAM = 3T2VMFZPPQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SubscriptionFetch/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Uses Bluetooth to connect and sync with nearby devices";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Uses Bluetooth to connect and sync with nearby devices";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = live.ditto.SubscriptionFetch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14CD51A82A2FE2D50018DE87 /* Build configuration list for PBXProject "SubscriptionFetch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CD51B92A2FE2D60018DE87 /* Debug */,
+				14CD51BA2A2FE2D60018DE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CD51BB2A2FE2D60018DE87 /* Build configuration list for PBXNativeTarget "SubscriptionFetch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CD51BC2A2FE2D60018DE87 /* Debug */,
+				14CD51BD2A2FE2D60018DE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		141A2F592B479F030029B6A4 /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getditto/DittoSwiftPackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
+		1445F5B62B47A7AF0039E285 /* XCRemoteSwiftPackageReference "DittoSwiftTools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getditto/DittoSwiftTools.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		141A2F5A2B479F030029B6A4 /* DittoObjC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 141A2F592B479F030029B6A4 /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */;
+			productName = DittoObjC;
+		};
+		141A2F5C2B479F030029B6A4 /* DittoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 141A2F592B479F030029B6A4 /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */;
+			productName = DittoSwift;
+		};
+		1445F5B72B47A7AF0039E285 /* DittoDataBrowser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1445F5B62B47A7AF0039E285 /* XCRemoteSwiftPackageReference "DittoSwiftTools" */;
+			productName = DittoDataBrowser;
+		};
+		1445F5B92B47A7AF0039E285 /* DittoDiskUsage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1445F5B62B47A7AF0039E285 /* XCRemoteSwiftPackageReference "DittoSwiftTools" */;
+			productName = DittoDiskUsage;
+		};
+		1445F5BB2B47A7AF0039E285 /* DittoExportData */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1445F5B62B47A7AF0039E285 /* XCRemoteSwiftPackageReference "DittoSwiftTools" */;
+			productName = DittoExportData;
+		};
+		1445F5BD2B47A7AF0039E285 /* DittoExportLogs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1445F5B62B47A7AF0039E285 /* XCRemoteSwiftPackageReference "DittoSwiftTools" */;
+			productName = DittoExportLogs;
+		};
+		1445F5BF2B47A7AF0039E285 /* DittoPeersList */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1445F5B62B47A7AF0039E285 /* XCRemoteSwiftPackageReference "DittoSwiftTools" */;
+			productName = DittoPeersList;
+		};
+		1445F5C12B47A7AF0039E285 /* DittoPresenceViewer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1445F5B62B47A7AF0039E285 /* XCRemoteSwiftPackageReference "DittoSwiftTools" */;
+			productName = DittoPresenceViewer;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 14CD51A52A2FE2D50018DE87 /* Project object */;
+}
